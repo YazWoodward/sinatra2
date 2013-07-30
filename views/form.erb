@@ -7,7 +7,19 @@
 <body>
     <div class='container'>
         <form method="post" action='/'>
+            <label>Name</label>
             <input type='text' name='user_name'>
+
+            <label>Email</label>
+            <input type='text' name='user_email'>
+
+            <label>Operating System</label>
+            <label class='radio'>
+            <input type='radio' name='user_os' value='Windows'>Windows</label>
+            <label class='radio'>
+            <input type='radio' name='user_os' value='Mac'>Mac</label>
+            <label class='radio'>
+            <input type='radio' name='user_os' value='Linux'>Linux</label>
 
             <button type='submit' class='btn btn-success'>Submit</button>
         </form>
